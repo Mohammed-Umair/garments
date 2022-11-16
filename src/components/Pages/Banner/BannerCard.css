@@ -1,0 +1,235 @@
+/** @format */
+.slick-prev:before {
+  content: "";
+}
+.slick-next:before {
+  content: "";
+}
+
+.Banner .slick-prev {
+  left: -25px;
+  margin-top: 20px;
+  /* z-index: 0 !important; */
+}
+
+.Banner .slick-next {
+  right: -25px;
+  margin-top: 20px;
+  /* z-index: 0 !important; */
+}
+.Banner .slick-dots {
+  top: 400px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: -35px;
+}
+
+.Banner .slick-dots li.slick-active button:before {
+  color: transparent !important;
+}
+
+.Banner .slick-dots li.slick-active {
+  background-color: #ffffff;
+  border: 4px solid #e7a356;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 10px;
+  vertical-align: -webkit-baseline-middle;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.Banner .slick-dots li button:before {
+  color: white !important;
+  font-size: 10px;
+}
+
+/* /
+main-container
+text-content
+heading-text
+description
+btn-sec
+banner-img
+/ */
+
+.main-container {
+  background: url(../../../assets/Banner/bg-banner.png),
+    linear-gradient(rgb(0, 0, 0), rgb(7, 7, 10));
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: visible !important;
+  /* height: 400px; */
+  width: 100%;
+  margin: auto;
+  position: relative;
+  border-radius: 10px;
+  z-index: 0;
+  margin-top: 50px;
+}
+.banner-img {
+  width: 100% !important;
+  height: 450px;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: star;
+  margin: 80px;
+}
+.heading-text {
+  color: #ffffff;
+  font-size: 47px !important;
+}
+
+.btn-sec {
+  background-color: #ef534e !important;
+  color: #fff;
+  /* border: 1px solid transparent; */
+
+  width: 180px;
+  padding: 13px 15px !important;
+  margin-top: 20px !important;
+  text-transform: capitalize !important;
+  align-items: self-start !important;
+  border-radius: 8px !important;
+}
+.btn-sec:hover {
+ box-shadow: 2 2 .6 #ef534e;
+}
+
+.banner-sec .slick-dots {
+  top: 445px;
+}
+
+/* ShopNearBy css */
+@media (min-width: 992px) and (max-width: 1900px) {
+  .banner-sec .slick-dots {
+    top: 445px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .text-content {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1100px) {
+  .text-content {
+    width: 487px;
+    margin-left: 60px;
+  }
+  .banner-img {
+    padding-right: 15px;
+  }
+}
+@media only screen and (min-width: 880px) and (max-width: 949px) {
+  .text-content {
+    width: 425px;
+    margin-left: 60px;
+  }
+  .banner-img {
+    padding-right: 15px;
+  }
+  .heading-text {
+    font-size: 35px !important;
+  }
+}
+@media only screen and (min-width: 750px) and (max-width: 879px) {
+  .main-container {
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+  .banner-img {
+    width: 100% !important;
+    height: 380px;
+    padding-right: 15px;
+  }
+  .banner-sec .slick-dots {
+    top: 498px;
+  }
+  .text-content {
+    width: 350px;
+    margin-left: 60px;
+  }
+  .heading-text {
+    font-size: 35px !important;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 750px) {
+  .main-container {
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+  .text-content {
+    margin: 50px 0 60px 50px;
+  }
+  .banner-sec .slick-dots {
+    top: 472px;
+  }
+  .heading-text {
+    font-size: 26px !important;
+  }
+  .banner-img {
+    width: 100% !important;
+    height: 380px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .main-container {
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .Banner .slick-prev {
+    display: none;
+  }
+
+  .Banner .slick-next {
+    display: none;
+  }
+  .Banner .slick-dots {
+    top: 250px;
+    margin-left: -20px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .banner-img {
+    width: 100% !important;
+    height: 250px;
+    margin-left: 5px;
+
+    opacity: 0.9;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .text-content {
+    width: 100%;
+    margin: 50px 0 0 20px;
+    padding-bottom: 65px;
+  }
+  .description {
+    color: "#616E7A";
+    font-size: 12px !important;
+    visibility: hidden !important;
+  }
+  .heading-text {
+    font-size: 22px !important;
+  }
+  .btn-sec {
+    color: white !important;
+    width: 150px;
+    padding: 8px !important;
+    margin-top: 10px !important;
+  }
+
+  .banner-sec .slick-dots {
+    top: 320px;
+  }
+}
