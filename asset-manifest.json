@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/garments/static/css/main.c4a1cb8a.css",
-    "main.js": "/garments/static/js/main.40f253be.js",
+    "main.css": "/garments/static/css/main.c12e5c42.css",
+    "main.js": "/garments/static/js/main.54304bc2.js",
     "static/js/787.e48bb734.chunk.js": "/garments/static/js/787.e48bb734.chunk.js",
-    "static/media/summer.jpg": "/garments/static/media/summer.24a33b4da1a5279023a2.jpg",
-    "static/media/rain-jackets.png": "/garments/static/media/rain-jackets.be2e0219159a61830c3b.png",
+    "static/media/bed.png": "/garments/static/media/bed.65e3f3ae3c7cb1577874.png",
+    "static/media/rain.png": "/garments/static/media/rain.d4806fe76fb8d1607539.png",
+    "static/media/winterbaby.png": "/garments/static/media/winterbaby.f812d568c5af9f9346c4.png",
     "static/media/G G Garments-logos_.jpeg": "/garments/static/media/G G Garments-logos_.3969cb0717a084dc1b92.jpeg",
-    "static/media/winterCloth.jpg": "/garments/static/media/winterCloth.7ce5ef2ff796e20dd4c3.jpg",
-    "static/media/bg-banner.png": "/garments/static/media/bg-banner.44eacce5718748999021.png",
+    "static/media/pngwing.png": "/garments/static/media/pngwing.c8a279c81c489906defc.png",
+    "static/media/ffbb.jpeg": "/garments/static/media/ffbb.139c03536bc78cbb9ded.jpeg",
     "index.html": "/garments/index.html",
-    "main.c4a1cb8a.css.map": "/garments/static/css/main.c4a1cb8a.css.map",
-    "main.40f253be.js.map": "/garments/static/js/main.40f253be.js.map",
+    "main.c12e5c42.css.map": "/garments/static/css/main.c12e5c42.css.map",
+    "main.54304bc2.js.map": "/garments/static/js/main.54304bc2.js.map",
     "787.e48bb734.chunk.js.map": "/garments/static/js/787.e48bb734.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4a1cb8a.css",
-    "static/js/main.40f253be.js"
+    "static/css/main.c12e5c42.css",
+    "static/js/main.54304bc2.js"
   ]
 }
