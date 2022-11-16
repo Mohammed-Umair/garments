@@ -29,7 +29,7 @@
 
 .Banner .slick-dots li.slick-active {
   background-color: #ffffff;
-  border: 4px solid #e7a356;
+  border: 4px solid #ef534e;
   width: 10px !important;
   height: 10px !important;
   border-radius: 10px;
@@ -55,7 +55,7 @@ banner-img
 / */
 
 .main-container {
-  background: url(../../../assets/Banner/bg-banner.png),
+  background: url(../../../assets/Banner/ffbb.jpeg),
     linear-gradient(rgb(0, 0, 0), rgb(7, 7, 10));
 
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ banner-img
   border-radius: 8px !important;
 }
 .btn-sec:hover {
- box-shadow: 2 2 .6 #ef534e;
+  box-shadow: 2 2 0.6 #ef534e;
 }
 
 .banner-sec .slick-dots {
@@ -193,7 +193,7 @@ banner-img
     display: none;
   }
   .Banner .slick-dots {
-    top: 250px;
+    top: 265px;
     margin-left: -20px;
     color: rgba(255, 255, 255, 1);
   }
@@ -201,8 +201,6 @@ banner-img
     width: 100% !important;
     height: 250px;
     margin-left: 5px;
-
-    opacity: 0.9;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -211,22 +209,26 @@ banner-img
   }
   .text-content {
     width: 100%;
-    margin: 50px 0 0 20px;
+    margin: 30px 0 0 20px;
     padding-bottom: 65px;
+    
+
   }
   .description {
     color: "#616E7A";
-    font-size: 12px !important;
-    visibility: hidden !important;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    /* visibility: hidden !important; */
   }
   .heading-text {
     font-size: 22px !important;
+    font-weight: 600 !important;
   }
   .btn-sec {
     color: white !important;
     width: 150px;
     padding: 8px !important;
-    margin-top: 10px !important;
+    margin-top: 25px !important;
   }
 
   .banner-sec .slick-dots {

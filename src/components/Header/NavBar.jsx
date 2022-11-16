@@ -71,17 +71,7 @@ export default function Navbar() {
       <Box>
         <AppBar position="static" color="inherit">
           <Toolbar>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="open drawer"
-              sx={{ mr: 2, display: { xs: "flex", md: "none" } }}
-            >
-              <MenuIcon onClick={handleOpenDrawer} />
-            </IconButton>
             <Box
-            className="header-logo"
               sx={{
                 mr: 2,
                 mt: "5px",
@@ -112,6 +102,16 @@ export default function Navbar() {
                 );
               })}
             </Box>
+            <IconButton
+              size="large"
+              edge="start"
+              color="inherit"
+              aria-label="open drawer"
+              sx={{ mr: 2, display: { xs: "flex", md: "none" } }}
+              className="header-logo"
+            >
+              <MenuIcon onClick={handleOpenDrawer} />
+            </IconButton>
             <Search
               sx={{
                 display: { xs: "none", md: "flex" },
@@ -140,8 +140,40 @@ export default function Navbar() {
         </AppBar>
       </Box>
 
+      <Box
+        sx={{
+          display: { xs: "flex", sm: "none" },
+        }}
+      >
+        <AppBar
+          position="static"
+          color="inherit"
+          className="mobile-search-header"
+        >
+          <Toolbar>
+            <Search>
+              <SearchIconWrapper>
+                <SearchIcon />
+              </SearchIconWrapper>
+              <StyledInputBase
+                placeholder="Search…"
+                inputProps={{ "aria-label": "search" }}
+              />
+            </Search>
+            <IconButton
+              size="large"
+              edge="start"
+              color="inherit"
+              aria-label="open drawer"
+            >
+              <AddShoppingCartIcon />
+            </IconButton>
+          </Toolbar>
+        </AppBar>
+      </Box>
+
       <Drawer
-        anchor="left"
+        anchor="right"
         open={openMobileDrawer}
         onClose={HandleClose}
         sx={{

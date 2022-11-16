@@ -15,7 +15,7 @@ const BannerCard = ({ data }) => {
             <Typography
               className="description"
               style={{
-                color: "#616E7A",
+                color: "#aababe",
                 fontSize: "20PX",
                 textTransform: "capitalize",
               }}

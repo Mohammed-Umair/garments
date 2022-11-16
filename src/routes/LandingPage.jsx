@@ -8,7 +8,7 @@ const LandingPage = () => {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
+        <Route path="/garments/" element={<HomePage/>}/>
       </Routes>
     </BrowserRouter>
   );
