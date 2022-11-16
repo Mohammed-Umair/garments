@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/garments/static/css/main.c4a1cb8a.css",
-    "main.js": "/garments/static/js/main.fb9c1e16.js",
+    "main.js": "/garments/static/js/main.40f253be.js",
     "static/js/787.e48bb734.chunk.js": "/garments/static/js/787.e48bb734.chunk.js",
     "static/media/summer.jpg": "/garments/static/media/summer.24a33b4da1a5279023a2.jpg",
     "static/media/rain-jackets.png": "/garments/static/media/rain-jackets.be2e0219159a61830c3b.png",
@@ -10,11 +10,11 @@
     "static/media/bg-banner.png": "/garments/static/media/bg-banner.44eacce5718748999021.png",
     "index.html": "/garments/index.html",
     "main.c4a1cb8a.css.map": "/garments/static/css/main.c4a1cb8a.css.map",
-    "main.fb9c1e16.js.map": "/garments/static/js/main.fb9c1e16.js.map",
+    "main.40f253be.js.map": "/garments/static/js/main.40f253be.js.map",
     "787.e48bb734.chunk.js.map": "/garments/static/js/787.e48bb734.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4a1cb8a.css",
-    "static/js/main.fb9c1e16.js"
+    "static/js/main.40f253be.js"
   ]
 }
