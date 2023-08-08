@@ -1,5 +1,5 @@
 export const navBarMenu = [
-  { id: 1, path: "/", title: "Home" },
+  { id: 1, path: "/garments", title: "Home" },
   { id: 2, path: "#Summer", title: "Summer" },
   { id: 3, path: "#Monsoon", title: "Monsoon" },
   { id: 4, path: "#Winter", title: "Winter" },

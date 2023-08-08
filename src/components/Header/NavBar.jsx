@@ -87,6 +87,7 @@ export default function Navbar() {
             >
               Garment
             </Typography>
+            
             <Box
               className="Nav-Bar-Menus"
               sx={{
@@ -125,6 +126,7 @@ export default function Navbar() {
                 inputProps={{ "aria-label": "search" }}
               />
             </Search>
+            
             <IconButton
               size="large"
               edge="start"
@@ -160,6 +162,7 @@ export default function Navbar() {
                 inputProps={{ "aria-label": "search" }}
               />
             </Search>
+
             <IconButton
               size="large"
               edge="start"
@@ -178,7 +181,7 @@ export default function Navbar() {
         onClose={HandleClose}
         sx={{
           "& .MuiPaper-root ": {
-            width: "100%",
+            width: "80%",
           },
         }}
       >
